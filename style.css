@@ -3,7 +3,42 @@
 	right: 100px;
 	color: black;
 }
-.lu{
-	background-color: #13007C;
+li{
+	background-color: #FFFFFF;
 
+}
+.contatos{
+	width: 100vw;
+	background-color:#13007C;
+	flex-wrap: wrap;
+
+}
+.paragrafo{
+	color: #FFFFFF;
+
+}
+.parceiros-footer{
+	color: #13007C;
+}
+.parceiros-img{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.parceiros{
+	display: flex;
+	flex-direction: column;
+}
+.caixa-link{
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+}
+
+.paragrafo-link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.caixa-h1{
+	color: #FFFFFF;
 }
