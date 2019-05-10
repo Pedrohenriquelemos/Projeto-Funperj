@@ -1,44 +1,75 @@
+
+
 .rodapé{
-	width:100px;
-	right: 100px;
-	color: black;
+	width:100vw;
 }
 li{
 	background-color: #FFFFFF;
 
 }
-.contatos{
-	width: 100vw;
-	background-color:#13007C;
-	flex-wrap: wrap;
 
-}
 .paragrafo{
 	color: #FFFFFF;
 
 }
 .parceiros-footer{
 	color: #13007C;
+	margin-left: 8%;
+	margin-right: 30px;
 }
 .parceiros-img{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
+	width: 74px;
+	height: 25px;
+	margin: 18px;
 }
 .parceiros{
+	width: 100vw;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	/*justify-content: space-around;*/
+	align-items: center;
+	margin: 20px;
+	
+
 }
-.caixa-link{
-	color: #FFFFFF;
-	display: flex;
-	flex-direction: column;
-}
+
 
 .paragrafo-link{
 	color: #FFFFFF;
 	text-decoration: none;
+	justify-content: flex-end;
+
+}
+.contatos{
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color:#13007C;
+	
+
+	
+
 }
 .caixa-h1{
 	color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-top:20px;
+	
+
+}
+.caixa1{
+	width: 100vw;
+	margin-left: 20%;
+}
+
+.caixa-link{
+	width: 100%;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20%;
+
 }
