@@ -1,5 +1,10 @@
+/**{
+	margin: 0;
+	padding: 0;
 
-
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Muli');
 .rodapé{
 	width:100vw;
 }
@@ -10,17 +15,51 @@ li{
 
 .paragrafo{
 	color: #FFFFFF;
+	font-family: 'Muli', sans-serif;
 
+}
+@media(max-width: 640px){
+	.paragrafo{
+		font-size: 20px;
+	}
+}
+.paragrafo-h3{
+	color: #FFFFFF;
+	font-family: 'Muli', sans-serif;
+
+}
+@media(max-width: 640px){
+	.paragrafo-h3{
+		font-size: 23px;
+		margin: 0;
+		padding: 2px;
+		margin-bottom: 2%;
+	}
 }
 .parceiros-footer{
 	color: #13007C;
 	margin-left: 8%;
 	margin-right: 30px;
+	font-family: 'Muli'black;
+}
+@media(max-width: 640px){
+	.parceiros-footer{
+		font-size: 45px;
+		width: 5%;
+	}
 }
 .parceiros-img{
-	width: 74px;
-	height: 25px;
+	width: 72px;
+	height: 30px;
 	margin: 18px;
+}
+@media(max-width: 640px){
+.parceiros-img{
+	width: 38%;
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}	
 }
 .parceiros{
 	width: 100vw;
@@ -32,12 +71,20 @@ li{
 	
 
 }
-
+@media(max-width: 640px){
+.parceiros{
+	width: 100vw;
+	margin: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+}
 
 .paragrafo-link{
 	color: #FFFFFF;
 	text-decoration: none;
 	justify-content: flex-end;
+	font-family: 'Muli', sans-serif;
 
 }
 .contatos{
@@ -46,10 +93,13 @@ li{
 	align-items: center;
 	justify-content: space-between;
 	background-color:#13007C;
-	
 
-	
-
+}
+@media(max-width: 640px){
+.contatos{
+	display: flex;
+	flex-wrap: wrap;
+}
 }
 .caixa-h1{
 	color: #FFFFFF;
@@ -57,14 +107,18 @@ li{
 	flex-direction: row;
 	margin-left: 10%;
 	margin-top:20px;
-	
+	font-family: 'Muli'black;
 
 }
 .caixa1{
 	width: 100vw;
 	margin-left: 20%;
 }
-
+@media(max-width: 640px){
+	.caixa1{
+		margin-left:35px;
+	}
+}
 .caixa-link{
 	width: 100%;
 	color: #FFFFFF;
@@ -72,4 +126,23 @@ li{
 	flex-direction: column;
 	margin-left: 20%;
 
+}
+@media(max-width: 640px){
+	.caixa-link{
+		border-left: 4px solid  #FFFFFF;
+		border-left-style: dotted;
+		padding-left: 16px;
+		margin-top: 2%;
+		margin-bottom: 8%;
+		margin-left: 35px;
+	}
+}
+.caixa-contato{
+
+}
+@media(max-width: 640px){
+	.caixa-contato{
+		width: px;
+		height: px;
+	}
 }
