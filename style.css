@@ -15,6 +15,7 @@ li{
 
 .paragrafo{
 	color: #FFFFFF;
+	font-size: 14px;
 	font-family: 'Muli', sans-serif;
 
 }
@@ -22,6 +23,16 @@ li{
 	.paragrafo{
 		font-size: 20px;
 	}
+}
+.paragrafo-tel{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+}
+.paragrafo-face{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
 }
 .paragrafo-h3{
 	color: #FFFFFF;
@@ -39,13 +50,15 @@ li{
 .parceiros-footer{
 	color: #13007C;
 	margin-left: 8%;
-	margin-right: 30px;
-	font-family: 'Muli'black;
+	margin-right: 80px;
+	font-family: 'Muli';
+
 }
 @media(max-width: 640px){
 	.parceiros-footer{
-		font-size: 45px;
+		font-size: 27px;
 		width: 5%;
+
 	}
 }
 .parceiros-img{
@@ -55,12 +68,21 @@ li{
 }
 @media(max-width: 640px){
 .parceiros-img{
-	width: 38%;
-	margin: 10px;
-	display: flex;
-	flex-wrap: wrap;
+	width: 20%;
+	/*margin: 10px;*/
+	/*display: flex;
+	flex-wrap: wrap;*/
 }	
 }
+.caixa-contato{
+
+}
+@media(max-width: 640px){
+	.caixa-contato{
+		width: 100%;
+	}
+}
+
 .parceiros{
 	width: 100vw;
 	display: flex;
@@ -68,6 +90,7 @@ li{
 	/*justify-content: space-around;*/
 	align-items: center;
 	margin: 20px;
+	justify-content: center;
 	
 
 }
@@ -85,13 +108,17 @@ li{
 	text-decoration: none;
 	justify-content: flex-end;
 	font-family: 'Muli', sans-serif;
-
+}
+@media(max-width: 640px){
+	.paragrafo-link{
+		font-size: 22px;
+	}
 }
 .contatos{
 	width: 100vw;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	/*align-items: center;*/
+	/*justify-content: space-between;*/
 	background-color:#13007C;
 
 }
@@ -105,14 +132,19 @@ li{
 	color: #FFFFFF;
 	display: flex;
 	flex-direction: row;
-	margin-left: 10%;
-	margin-top:20px;
+	margin-left: 19.5%;
+	margin-top:22px;
 	font-family: 'Muli'black;
 
 }
+@media(max-width: 640px){
+	.caixa-h1{
+		margin-left: 35px;
+	}
+}
 .caixa1{
 	width: 100vw;
-	margin-left: 20%;
+	margin-left: 18%;
 }
 @media(max-width: 640px){
 	.caixa1{
@@ -124,7 +156,8 @@ li{
 	color: #FFFFFF;
 	display: flex;
 	flex-direction: column;
-	margin-left: 20%;
+	justify-content: center;
+	margin-left: 10%;
 
 }
 @media(max-width: 640px){
@@ -135,14 +168,5 @@ li{
 		margin-top: 2%;
 		margin-bottom: 8%;
 		margin-left: 35px;
-	}
-}
-.caixa-contato{
-
-}
-@media(max-width: 640px){
-	.caixa-contato{
-		width: px;
-		height: px;
 	}
 }
